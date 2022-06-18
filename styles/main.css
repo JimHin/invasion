@@ -1,0 +1,76 @@
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(ellipse at 100px 50px, #000000 0%, #0a0a0a 100%);
+    color: white;
+    overflow: hidden;
+}
+
+.mainContent{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.header{
+    height: 40px;
+    font-weight: bold;
+    font-size: 160%;
+    border-bottom: solid 5px white;
+    border-radius: 60%;
+    padding-top: 6px;
+}
+
+.title{
+    word-spacing: 40px;
+    letter-spacing: 30px;
+}
+
+.game{
+    width: 60%;
+    height: 80%;
+    left: 19%;
+    position: relative;
+    top: 3%;
+}
+
+.board{
+    height: 100%;
+    background: black;
+    border-top: solid 1px grey;
+}
+
+.info{
+    text-align: left;
+    color: whitesmoke;
+    background: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 24px;
+    padding-top: 6px;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+#bullets, #cannon, #ennemies, #shields, #space{
+    position: absolute;
+    left: 0;
+    top: 30px;
+    width: 100%;
+    height: 100%;
+    cursor: none;
+}
+#space{
+    z-index: 0;
+    opacity: .3;
+}
+
+
+.cache{
+    display: none;
+}
